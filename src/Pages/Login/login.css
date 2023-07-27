@@ -1,0 +1,99 @@
+
+/*General CSS*/
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+  
+html:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(14, 15, 17);
+    z-index: -1;
+}
+  
+/*End*/
+
+
+
+
+/*Input CSS Components*/
+
+.form-group input {
+    margin-top: 10px;
+    background-color: rgb(14, 15, 17);
+    font-size: 1.8rem;
+    height: 6.5rem;
+}
+
+.form-group label {
+    padding-bottom: 1.1;
+    padding-top: 2rem;
+}
+
+.check-state {
+    padding-left: 10px;
+    position: relative;
+    bottom: 2px;
+    font-weight: 100;
+    font-family: inherit;
+}
+
+.container-title p {
+    font-size: 1.8rem;
+    color: rgba(145, 152, 167, 0.76);
+}
+
+.container-title {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+
+.submit-button {
+    margin-top: 15px;
+}
+
+
+.linkRegister {
+    position: relative;
+    left: 39%;
+    font-family: inherit;
+}
+
+/*End*/
+
+
+
+/*Login Box Container*/
+
+.Login-Body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 10%;
+    color: white;
+
+}
+
+.Login-Holder {
+    margin: 0;
+    padding: 0;
+
+    width: 25%;
+    height: 500px;
+    position: relative;
+    background-color: transparent;
+}
+
+/*End*/
+
+
+
